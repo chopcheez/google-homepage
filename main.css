@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(34, 34, 34);
+}
+
+#main {
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    padding-top: 150px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    padding: 8px;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+#top-nav-bar {
+    position: fixed;
+    top: 16px;
+    width: 99%
+}
+
+#top-nav-left {
+    float: left;
+}
+
+#top-nav-right {
+    float: right;
+}
+
+.google-apps {
+    vertical-align: middle;
+    opacity: 0.55;
+}
+
+.sign-in {
+    vertical-align: middle;
+    background-color: rgb(66, 133, 244);
+    border-color: rgb(66, 133, 244);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 0.2rem;
+    height: 30px;
+    width: 70px;
+}
+
+#bottom-nav-bar {
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+}
+
+#bottom-nav-bar {
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3fe;
+    font-size: 14px;
+}
+
+#footer-left {
+    float: left;
+}
+
+#footer-right {
+    float: right;
+}
